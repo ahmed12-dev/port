@@ -31,63 +31,74 @@
 
 // map is  a function That takes one Element at a time and Index
 
-const squareNum = num => num * num ;
+// const squareNum = num => num * num ;
 
-// squareNum(2)
+// // squareNum(2)
 
-console.log(squareNum(4));
+// console.log(squareNum(4));
 
-const square = numbers => numbers.map(squareNum)
+// const square = numbers => numbers.map(squareNum)
 
-// square([1,2,3,4,5,6])
+// // square([1,2,3,4,5,6])
 
-console.log(square([1,2,3,4,5,6]));
+// console.log(square([1,2,3,4,5,6]));
 
-const wordLength = word => word.length
+// const wordLength = word => word.length
 
-// wordLength("ahmed")
+// // wordLength("ahmed")
 
-console.log(wordLength("ahmed"))
+// console.log(wordLength("ahmed"))
 
-const getLength = words => words.map(wordLength)
+// const getLength = words => words.map(wordLength)
 
-getLength(["ahmed", "is", "good"])
+// getLength(["ahmed", "is", "good"])
 
-console.log(getLength(["ahmed", "is", "good"]))
-
-
-
-const thisIsAnArrayOfObject = [{name:"Ahmed"}, {name:"Bilal"},{name:"Umi"}]
-
-const extractNameFromObj = obj => obj.name
-
-extractNameFromObj ({name:"ahmed"})
-
-x = thisIsAnArrayOfObject.map(extractNameFromObj)
-
-console.log(x)
+// console.log(getLength(["ahmed", "is", "good"]))
 
 
-// Fillter
 
-const numbers = [1,3,5,2,22,11,9]
+// const thisIsAnArrayOfObject = [{name:"Ahmed"}, {name:"bil"},{name:"Umi"}]
 
-const isOdd = num => num % 2 != 0
+// const extractNameFromObj = obj => obj.name
 
-y = isOdd(3)
+// extractNameFromObj ({name:"ahmed"})
 
-console.log(y)
+// x = thisIsAnArrayOfObject.map(extractNameFromObj)
 
-//  to use filter, the callback function should return boolean 
+// console.log(x)
 
-const oddNumberOnly = numbers.filter(isOdd)
 
-z = oddNumberOnly
+// // Filter
 
-console.log(z)
+// const numbers = [1,3,5,2,22,11,9]
 
-const onlyBooleans = numbers.map(isOdd)
+// const isOdd = num => num % 2 != 0
 
-a = onlyBooleans
+// y = isOdd(3)
 
-console.log(a)
+// console.log(y)
+
+// //  to use filter, the callback function should return boolean 
+
+// const oddNumberOnly = numbers.filter(isOdd)
+
+// z = oddNumberOnly
+
+// console.log(z)
+
+// const onlyBooleans = numbers.map(isOdd)
+
+// a = onlyBooleans
+
+// console.log(a)
+//  a filter will return an array with the values 
+// for which the callback function returned true
+
+const numbers = [5,20,15,40,3,30,11]
+
+const isDivisileBy10 = num => num % 10 === 0
+
+c = isDivisileBy10(5)
+
+b = isDivisileBy10(90)
+ console.log(b )
