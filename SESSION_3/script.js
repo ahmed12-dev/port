@@ -29,3 +29,5 @@
 
 // const colorMessage2 = colors.map(convertColor)
 
+// map is  a function That takes one Element at a time and Index
+
