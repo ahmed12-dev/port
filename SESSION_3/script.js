@@ -94,11 +94,11 @@
 //  a filter will return an array with the values 
 // for which the callback function returned true
 
-const numbers = [5,20,15,40,3,30,11]
+// const numbers = [5,20,15,40,3,30,11]
 
-const isDivisileBy10 = num => num % 10 === 0
+// const isDivisileBy10 = num => num % 10 === 0
 
-c = isDivisileBy10(5)
+// c = isDivisileBy10(5)
 
-b = isDivisileBy10(90)
- console.log(b )
+// b = isDivisileBy10(90)
+//  console.log(b )
