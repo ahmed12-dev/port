@@ -96,9 +96,28 @@
 
 // const numbers = [5,20,15,40,3,30,11]
 
-// const isDivisileBy10 = num => num % 10 === 0
+// const isDivisibleBy10 = num => num % 10 === 0
 
-// c = isDivisileBy10(5)
+// c = isDivisibleBy10(5)
 
-// b = isDivisileBy10(90)
+// b = isDivisibleBy10(90)
 //  console.log(b )
+
+// Reduce
+
+// we have accumulator  and currentValue
+
+const numbers = [ 5 , 20 , 15,40,3,30,11]
+
+const sumOfNumbers = (acc , curr) => { console.log(acc, curr);
+return acc = curr}
+
+const initialValue = 0;
+let init = 0;
+init = sumOfNumbers(init, numbers[2])
+console.log(init)
+
+// const sum = sumOfNumbers(init, numbers[1])
+
+const sum = numbers.reduce(sumOfNumbers, 0)
+console.log(sum)
