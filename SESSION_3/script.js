@@ -121,3 +121,4 @@ console.log(init)
 
 const sum = numbers.reduce(sumOfNumbers, 0)
 console.log(sum)
+
